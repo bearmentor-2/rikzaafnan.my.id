@@ -1,4 +1,4 @@
-# rikzaafnan.my.id / Personal Website of Muhammad Rikza Afnan
+# rikzaafnan.com / Personal Website of Muhammad Rikza Afnan
 
 This is to show my profile and portofolio.
 
