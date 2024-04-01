@@ -5,19 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Web</title>
+    <link rel="stylesheet" href="index.css"/>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
+        <nav class="navbar">
+            <ul class="navbar-link">
                 <li><a  href="/">Home</a></li>
                 <li><a  href="/about/">About</a></li>
                 <li><a  href="/project/">Project</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Web Maintenence</h1>
+    <main class="main">
+        <div class="main-header">
+            <div class="main-about">
+                <h1 class="main-header-fullname">Muhammad Rikza Afnan</h1>
+                <h4 class="main-header-role">Backend Developer | FullStack Developer</h4>
+                <p>
+                    Hello, I'm a Backend Developer with over 4 years of experience, typically utilizing golang, nodejs, and php for backend development. 
+                    I usually work with frameworks such as gin-gonic, echo, expressJS, and laravel. In terms of databases, 
+                    I use MySQL, MariaDB, and PostgreSQL for SQL databases, and MongoDB for NoSQL databases. Additionally, 
+                    I use Redis for caching and Docker for containerized deployment. This constitutes the stack I commonly use,
+                    and for coding structure, I typically adhere to the MVC pattern.
+                </p>
+            </div>
+            <div class="main-picture">
+                <img class="profile" src="/images/profile-picture.jpg" width="350" alt="picture profile">
+            </div>
+        </div>
+        <div>
+            <h3>Contact Me</h3>
+            <a  href="/">linkedIn</a>
+            <a  href="/">github</a>
+            <a  href="/">facebook</a>
+            <a  href="/">twitter</a>
+            <a  href="/">email</a>
+        </div>
     </main>
 </body>
 <footer>
