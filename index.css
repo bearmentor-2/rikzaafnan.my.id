@@ -33,6 +33,7 @@ body {
 
 .main-header {
     display: flex;
+    margin-bottom: 25px;
 }
 
 .main-about {
@@ -64,5 +65,24 @@ body {
     
 }
 
+.main-content {
+    justify-content: space-around;
+    /* background-color: red; */
+    text-align: center;
+}
+.main-content-header {
+    font-size: 30px;
+}
 
+.footer {
+    /* margin: auto;     */
+    margin-top: 20px;
+    border-top: 2px solid white;
 
+}
+.main-footer {
+    justify-content: space-around;
+    /* background-color: red; */
+    text-align: center;
+
+}
